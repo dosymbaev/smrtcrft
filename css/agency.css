@@ -197,6 +197,9 @@ fieldset[disabled] .btn-xl.active {
   color: white;
   background-color: #19424a;
 }
+.img-responsive {
+  border-radius: 7px 7px 0 0;
+}
 @media (min-width: 768px) {
   .navbar-custom {
     background-color: transparent;
@@ -215,6 +218,11 @@ fieldset[disabled] .btn-xl.active {
   .navbar-custom .navbar-nav > .active > a {
     border-radius: 3px;
   }
+
+}
+.img-logo {
+  width: 150px;
+  margin-top: -8px;
 }
 @media (min-width: 768px) {
   .navbar-custom.affix {
@@ -321,6 +329,7 @@ section h3.section-subheading {
   transition: all ease 0.5s;
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
+  border-radius: 7px 7px 0 0;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
   opacity: 1;
@@ -348,7 +357,7 @@ section h3.section-subheading {
   background-color: white;
   text-align: center;
   padding: 25px;
-  border-radius: 0 0 10px 10px;
+  border-radius: 0 0 7px 7px;
 }
 #portfolio .portfolio-item .portfolio-caption h4 {
   text-transform: none;
@@ -557,7 +566,6 @@ section h3.section-subheading {
 }
 .team-member img {
   margin: 0 auto;
-  border: 7px solid white;
 }
 .team-member h4 {
   margin-top: 25px;
